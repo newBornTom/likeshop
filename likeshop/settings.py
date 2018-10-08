@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'zwi!vqtzpkjosmksiz0e1i3e@8#=s6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1','likeshoptom.herokuapp.com']
+ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1','likeshoptom.herokuapp.com','www.likeshop.today','likeshop.today']
 
 
 # Application definition
