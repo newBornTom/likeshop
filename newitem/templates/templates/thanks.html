@@ -1,0 +1,38 @@
+{% extends 'base_generic2.html' %}
+
+{% block content %}
+<style type="text/css">
+	.thanks{
+	text-align: center;
+	background-color: rgb(35, 237, 237);
+
+	h1{
+	color: #414a4f;
+	font: bold 40px 'Open Sans', sans-serif;
+	text-transform: capitalize; 
+	padding-bottom: 40px;
+	text-align: center;
+	}
+}
+
+
+</style>
+<div class="thanks">
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      
+
+
+<h1>Спасибо за Ваш заказ!</h1></br><hr>
+<h2>В течении 5-10 минут вам перезвонит наш менеджер.</h2></br>
+<h2>Если вы ошиблись при заполнении формы, то, пожалуйста,<a href="{% url 'contact' %}"> заполните заявку еще раз.</a></h2>
+<footer>
+   
+    <p>ООО "Лайкшоп" Адрес: г.Киев ул.Ильинская 12a.</p>
+    
+  </footer>
+
+</div></div></div>
+
+
+{% endblock %}

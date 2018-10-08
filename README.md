@@ -1,2 +1,2 @@
 # likeshop
-shops
+Like shop

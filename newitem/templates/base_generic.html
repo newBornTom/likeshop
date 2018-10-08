@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  {% load static %} {% load staticfiles%}
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127165440-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127165440-1');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Автопроектор</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    
+     <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+     <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" type="text/css" />
+     <script type="text/javascript" src="{% static 'js/modernizr.js' %}"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <h2><a href="#phone">068-424-73-62</a></h2>
+    <nav>
+      <li><a href="#info">О товаре</a></li>
+      <li><a href="#special">Характеристики </a></li>
+      <li><a href="#sale">Заказать</a></li>
+      
+    </nav>
+
+  </header>
+
+
+  <section class="hero">
+    <div class="background-image"  ></div>
+    <h5 id="blink7">Твоя БЕЗОПАСНОСТЬ в твоих руках!</h5>
+    <h1>Автомобильный проектор OBD-II на лобовое стекло: </h1>
+    <h3>• Скорость автомобиля<br>• Частота вращения<br>• Температура воды<br>• Расход
+      топлива<br>• Напряжение аккумулятора<br>• Сигнализация о привышении скорости</h3>
+  
+    <h2 id="phone" >За полцены до конца дня:</h2>
+  <h6>Твоя БЕЗОПАСНОСТЬ в твоих руках!</h6>
+    {% block content %}{% endblock %}
+ 
+
+    
+    
+
+    <div id='Label1' style='display: none;'>
+    <a href="#sale"> <wrapper>
+  <div class="dws">
+    <div class="pulse">
+      <div class="bloc"></div>
+      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i></div>
+      <div class="text">Заказать звонок</div>
+    </div>
+  </div>
+</wrapper> </a>
+</div>
+     
+<script type='text/javascript'>
+
+function isMobile(){if (navigator.userAgent.match(/Android|Mobile|IEMobile|Opera Mini|iPhone|iPad|iPod/i)==null)return false; else return true;}
+    var label = isMobile();
+    if (label==true) {
+        document.getElementById("Label1").style.display='block';
+                
+    } else {
+        document.getElementById("Label1").style.display='block';
+        
+    }
+</script>
+
+  </section>
+  
+
+
+
+
+  <section class="our-work" id="info">
+    <h1 class="title" >Каковы преимущества автомобильного проектора?</h1>
+     <hr>
+    <h3 class="title">Прочитайте о преимуществах, которые вы получите</h3>
+     <hr>
+
+     
+    
+<div id="block_container">
+  <div id="bloc1"><h7>БЕЗОПАСНОСТЬ</h7></br></br> «При скорости 60 км/ч, глядя на приборную панель, вы за 1 секунду проезжаете 16 метров без контроля дороги!» Но благодаря устройству информация будет «висеть» прямо перед глазами.</div>
+
+  <div id="bloc3" class="photo2" ></div>
+
+  <div id="bloc2"><h7>ЭКОНОМИЯ</h7></br></br>За щет сигнализации на привышение скорости можно существенно сэкономить на штрафах за быструю езду.</div>
+
+</div>
+
+
+
+<div id="block_container">
+  <div id="bloc1"><h7>УДОБНЫЕ РЕЖИМЫ</h7></br></br> Автоматический и ручной режимы регулировки яркости.</div>
+
+  <div id="bloc3" class="photo4" ></div>
+
+  <div id="bloc2"><h7>ЭКОНОМИЧНОСТЬ</h7></br></br>Автоматически отключается после глушения автомобиля, тем самым экономит заряд аккумулятора.</div>
+
+</div>
+
+
+<div id="block_container">
+  <div id="bloc1"><h7>ЛЕГКОСТЬ МОНТАЖА</h7></br></br>Всего несколько минут и устройство готово к работе.</div>
+
+  <div id="bloc3" class="photo3" ></div>
+
+  <div id="bloc2"><h7>ПРОСТОТА В ИСПОЛЬЗОВАНИИ</h7></br></br>Легкое интуитивно понятное меню. Вам не прийдется тратить лишнее время, разбираясь в настройках.
+  </div>
+
+</div>
+
+
+
+
+
+  </section>
+  
+
+  <section class="features" id="special">
+
+    <h3 class="title" >Общие характеристики автопроектора<br></h3>
+    
+    <hr>
+    
+    <ul class="grid">
+      <li>
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        
+        <p>Показывает информацию по 6 параметрам.</p>
+      </li>
+      <li>
+        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+        
+        <p>Автоматический и ручной режимы регулировки яркости.</p>
+      </li>
+      <li>
+        <i class="fa fa-car" aria-hidden="true"></i>
+        
+        <p>Автоматическое включение устройства при запуске двигателя.</p>
+      </li>
+
+       <li>
+        <i class="fa fa-arrows" aria-hidden="true"></i>
+        
+        <p>Размер экрана 3" дюйма.</p>
+      </li>
+    
+
+    <li>
+        <div class="fa fa-square" aria-hidden="true"></div>
+        
+        <p>Цвет корпуса: Чёрный.</p>
+      </li>
+    
+
+    <li>
+        <i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i>
+        
+        <p>t° использования -40...+80 С°.</p>
+      </li>
+    
+
+    <li>
+        <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+        
+        <p>Вес 40г.</p>
+      </li>
+   
+
+    <li>
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        
+        <p>Гарантия 1 год.</p>
+      </li>
+
+    <li>
+        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+        
+        <p>Работа по стандартному протокулу OBD.</p>
+      </li>      
+    
+  </section>
+
+
+  <section class="reviews">
+    <h3 class="title">Комплектация</h3><hr>
+
+    <ul class="quote">
+      <li class="fa fa-check-square-o" aria-hidden="true"> Автомобильный проектор; </li></br>
+      <li class="fa fa-check-square-o" aria-hidden="true"> Кабель OBD; </li></br>
+      <li class="fa fa-check-square-o" aria-hidden="true"> Нескользящий коврик; </li></br>
+      <li class="fa fa-check-square-o" aria-hidden="true"> Зеркальная наклейка на стекло; </li></br>
+      <li class="fa fa-check-square-o" aria-hidden="true"> Руководство пользователя; </li></br>
+    </ul>
+    
+        
+  </section>
+
+
+  <section id='grid' class="contact">
+    <h3 class="title"><i id="car" class="fa fa-truck fa-2x" aria-hidden="true" ></i></br>Условия доставки  </h3>  
+    <hr>
+<ul class="quote">
+      <li class="fa fa-check-circle-o" aria-hidden="true"> Быстрая доставка по Украине </li></br>
+      <li class="fa fa-check-circle-o" aria-hidden="true"> Оплата при получении</li></br>
+      <li class="fa fa-check-circle-o" aria-hidden="true"> Никаких предоплат </li></br>
+      <li class="fa fa-check-circle-o" aria-hidden="true"> Отправка товара в день заказа </li>
+         
+
+  </section>
+
+
+  <section class="sale2" id="sale">
+    <h3 class="title" >Закажите автопроектор - обеспечь себе Безопасное и Комфортное вождение
+    </br></h3>
+    <h1 id="blink6"> Акционная цена: 799 грн.</h1>
+    </br>
+    <hr>
+    
+    <div id="block_container">
+
+<div id="bloc3" class="photo5" ></div>
+
+
+<div class="form">
+    <form action="/contact/" method="post">{% csrf_token %}
+
+    {{ form.non_field_errors }}
+    <div class="row"  >
+    <div class="col-md-4 col-md-offset-4" >
+     
+      <h4>До конца акции осталось:</h4> </br>
+      <!--Timer !-->
+    <script src="http://megatimer.ru/s/fd1e89200e0c3e546beac2ca35a6d55e.js"></script>
+  </br>
+      <label for="id_subject">Имя:</label>
+      {{ form.subject.errors }}
+      {{ form.subject }}
+    </div></div>
+
+    
+
+    <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <label for="id_message">Телефон:</label>
+      {{ form.message.errors }}
+      {{ form.message }}
+    </div></div>
+</br>
+      <input name="submit" class="btn" type="submit" value="ЗАКАЗАТЬ"/>
+    </div></div>
+</form>
+</div></div>
+        
+  </section>
+
+
+  <footer>
+   
+    <p>ООО "Лайкшоп" Адрес: г.Киев ул.Ильинская 12a.</p>
+    
+  </footer>
+
+</body>
+
+</html>
